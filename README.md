@@ -7,3 +7,6 @@ docker run -d -p 9091:9091 --name=nezha-prometheus -e NEZHA_URL=http[s]://nezha_
 
 # 在线拉取（修改NEZHA_URL NEZHA_TOKEN参数为自己的）
 docker run -d -p 9091:9091 --name=nezha-prometheus -e NEZHA_URL=http[s]://nezha_url/api/v1/server/details -e NEZHA_TOKEN=nezha_TOKEN  1275788667/nezha-prometheus-exporter:latest
+
+# 访问
+http[s]://nezha_url/metrics
